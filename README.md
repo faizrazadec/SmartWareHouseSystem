@@ -72,7 +72,7 @@ This project use `uv` as it's package manager instead of traditional `pip`. Lear
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
+    https://github.com/faizrazadec/SmartWareHouseSystem.git
     cd SmartWareHouseSystem
     ```
 
@@ -85,7 +85,8 @@ This project use `uv` as it's package manager instead of traditional `pip`. Lear
 3.  **Install dependencies:**
 
     ```bash
-    uv pip 
+    uv pip install -r pyproject.toml
+    ```
 
 4.  **Database Initialization:**
     The application utilizes an SQLite database (`db.db`). Ensure this file is correctly placed in the project root. If the database schema needs to be initialized or migrations are required, please refer to any accompanying database setup scripts (not detailed here, assuming `db.db` is pre-configured or schema creation is handled within the application).
