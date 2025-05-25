@@ -1,0 +1,6 @@
+.venv
+*.h5
+*.pth
+*.pkl
+*.jpg
+**__pycache__

@@ -1,0 +1,16 @@
+[project]
+name = "SmartWareHouseSystem"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "joblib>=1.5.0",
+    "rfdetr>=1.1.0",
+    "scikit-learn>=1.6.1",
+    "streamlit>=1.45.1",
+    "tensorflow>=2.19.0",
+    "torch>=2.7.0",
+    "torchaudio>=2.7.0",
+    "torchvision>=0.22.0",
+]
